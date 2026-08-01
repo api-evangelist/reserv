@@ -1,8 +1,25 @@
 aid: reserv
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reserv.png
 name: Reserv
-description: Reserv is a company surfaced as a portfolio company of 8vc, anthemis, bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Reserv is an insurance technology company and third-party administrator
+  (TPA) that combines AI-powered automation with human claims expertise to handle
+  property and casualty (P&C) claims for MGAs and carriers across North America, the
+  UK, and the EU. Its platform pairs adjuster workflows with analytics dashboards,
+  reporting, and structured claims data, positioning itself as the simplicity of a
+  TPA with the benefits of an in-house team. Reserv is backed by 8VC, Anthemis, and
+  Bain Capital Ventures. As of this profile the company publishes no public developer
+  portal, API reference, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/reserv/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Insurance
+- Claims Management
+- Insurtech
+- Third-Party Administrator
+- Property & Casualty
+- Artificial Intelligence
+- Data Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://reserv.com
+- type: About
+  url: https://reserv.com/about
+- type: Careers
+  url: https://reserv.com/careers
+- type: TermsOfService
+  url: https://reserv.com/legal-notice
+- type: PrivacyPolicy
+  url: https://reserv.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/reserv-ai/
+- type: DomainSecurity
+  url: security/reserv-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
